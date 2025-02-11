@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: json-framework
+  description: 'JSON (JavaScript Object Notation) is a light-weight data interchange
+    format that''s easy to read and write for humans and computers alike. This framework
+    implements a strict JSON parser and generator in Objective-C. '
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/json-framework
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Objective-C
+    - Shell
